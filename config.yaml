@@ -1,0 +1,14 @@
+data_dir: data/bilibiliarticle
+number_of_topics: 100
+max_iters: 100
+
+topic_model_name: plsa
+
+defaults:
+  - _self_
+  - override hydra/hydra_logging: colorlog
+  - override hydra/job_logging: colorlog
+
+hydra:
+  run:
+    dir: ./outputs/${topic_model_name}/${now:%Y-%m-%d_%H-%M-%S}

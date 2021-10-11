@@ -1,0 +1,8 @@
+omegaconf==2.1.1
+numpy==1.19.5
+jieba==0.42.1
+prettytable==2.2.1
+itemadapter==0.4.0
+Scrapy==2.5.1
+hydra_core==1.1.1
+hydra==2.5
